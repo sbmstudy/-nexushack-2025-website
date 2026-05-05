@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 const schedule = [
   {
     day: "Day 1",
-    date: "June 15, 2025",
+    date: "June 15, 2026",
     events: [
       { time: "09:00 AM", title: "Registration & Check-in", description: "Get your badges and swag" },
       { time: "10:00 AM", title: "Opening Ceremony", description: "Welcome address and theme reveal" },
@@ -17,7 +17,7 @@ const schedule = [
   },
   {
     day: "Day 2",
-    date: "June 16, 2025",
+    date: "June 16, 2026",
     events: [
       { time: "12:00 AM", title: "Midnight Snacks", description: "Fuel for the night owls" },
       { time: "06:00 AM", title: "Breakfast", description: "Morning refreshments" },
