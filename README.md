@@ -1,10 +1,10 @@
 # NexusHack 2025 — Event Registration Platform
 
 ## 🚀 Live Demo
-[Vercel Link]
+https://v0-nexushack-2025-website.vercel.app/
 
 ## 🎥 Video Demo  
-[Loom Link]
+
 
 ## 🛠️ Tech Stack
 - Next.js 14 + Tailwind CSS
