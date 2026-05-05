@@ -179,7 +179,7 @@ export default function RegisterPage() {
         className="fixed left-0 top-0 z-0 h-full w-full object-cover"
         style={{ opacity: 1, filter: "none", backdropFilter: "none" }}
       >
-        <source src="/hero-bg.mp4" type="video/mp4" />
+        <source src="/register-bg.mp4" type="video/mp4" />
       </video>
       {/* Dark overlay - rgba(0,0,0,0.65) for readability */}
       <div
