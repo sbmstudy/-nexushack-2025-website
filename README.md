@@ -13,7 +13,6 @@ https://v0-nexushack-2025-website.vercel.app/
 - Vercel (deployment)
 
 ## ✨ Features
-- Animated hero with AI-generated video background
 - Real-time registration with Supabase
 - Unique Registration ID generation (NXH-2025-XXXX-XXXX)
 - Animated confirmation page with video popup
@@ -22,5 +21,4 @@ https://v0-nexushack-2025-website.vercel.app/
 
 ## 🔧 Run Locally
 npm install
-# Add .env.local with Supabase keys
 npm run dev
