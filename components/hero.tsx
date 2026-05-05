@@ -104,7 +104,7 @@ export function Hero() {
           className="mb-4 text-center text-5xl font-bold tracking-tight sm:text-7xl md:text-8xl"
         >
           <span className="text-gradient">NexusHack</span>
-          <span className="text-[#f0f0f5]"> 2025</span>
+          <span className="text-[#f0f0f5]"> 2026</span>
         </motion.h1>
 
         <motion.p
