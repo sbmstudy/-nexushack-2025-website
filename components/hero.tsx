@@ -44,23 +44,22 @@ export function Hero() {
 
   return (
     <section id="home" className="relative h-screen w-full overflow-hidden">
-      {/* Video Background */}
-      <div className="absolute inset-0 z-0">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="h-full w-full object-cover"
-        >
-          <source src="/hero-bg.mp4" type="video/mp4" />
-        </video>
-        {/* Dark overlay - reduced opacity to make video more visible */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0f]/50 via-[#0a0a0f]/40 to-[#0a0a0f]/70" />
-      </div>
-
-      {/* Grid overlay */}
-      <div className="absolute inset-0 z-[1] grid-bg opacity-30" />
+      {/* Video Background - Crystal clear, no blur */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute left-0 top-0 z-0 h-full w-full object-cover"
+        style={{ opacity: 1, filter: "none", backdropFilter: "none" }}
+      >
+        <source src="/hero-bg.mp4" type="video/mp4" />
+      </video>
+      {/* Single dark overlay - rgba(0,0,0,0.45) only */}
+      <div
+        className="absolute inset-0 z-[1]"
+        style={{ backgroundColor: "rgba(0,0,0,0.45)" }}
+      />
 
       {/* Floating particles */}
       <div className="absolute inset-0 z-[2] overflow-hidden">
