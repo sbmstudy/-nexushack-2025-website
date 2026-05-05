@@ -3,7 +3,6 @@ import { Hero } from "@/components/hero"
 import { Stats } from "@/components/stats"
 import { Themes } from "@/components/themes"
 import { Schedule } from "@/components/schedule"
-import { Registration } from "@/components/registration"
 import { FAQ } from "@/components/faq"
 import { Footer } from "@/components/footer"
 
@@ -15,7 +14,6 @@ export default function HomePage() {
       <Stats />
       <Themes />
       <Schedule />
-      <Registration />
       <FAQ />
       <Footer />
     </main>

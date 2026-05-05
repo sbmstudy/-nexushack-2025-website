@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkles } from "lucide-react"
+import Link from "next/link"
 
 export function Hero() {
   const [timeLeft, setTimeLeft] = useState({
@@ -158,10 +159,10 @@ export function Hero() {
             className="pulse-glow group bg-[#00d4ff] px-8 py-6 text-lg font-semibold text-[#0a0a0f] hover:bg-[#00d4ff]/90"
             asChild
           >
-            <a href="#register">
+            <Link href="/register">
               Register Now
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </a>
+            </Link>
           </Button>
           <Button
             size="lg"
@@ -169,7 +170,7 @@ export function Hero() {
             className="border-[#7c3aed] bg-transparent px-8 py-6 text-lg font-semibold text-[#f0f0f5] hover:bg-[#7c3aed]/20 hover:text-[#f0f0f5]"
             asChild
           >
-            <a href="#themes">Explore Themes</a>
+            <Link href="/#themes">Explore Themes</Link>
           </Button>
         </motion.div>
       </div>
