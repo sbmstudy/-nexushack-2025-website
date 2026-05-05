@@ -1,35 +1,26 @@
-# -nexushack-2025-website
+# NexusHack 2025 — Event Registration Platform
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+## 🚀 Live Demo
+[Vercel Link]
 
-## Built with v0
+## 🎥 Video Demo  
+[Loom Link]
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+## 🛠️ Tech Stack
+- Next.js 14 + Tailwind CSS
+- Framer Motion (animations)
+- Supabase (database)
+- Vercel (deployment)
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_ClMTXaAWATkmyQybO7xwKa8kXUFa)
+## ✨ Features
+- Animated hero with AI-generated video background
+- Real-time registration with Supabase
+- Unique Registration ID generation (NXH-2025-XXXX-XXXX)
+- Animated confirmation page with video popup
+- Duplicate email detection
+- Fully responsive
 
-## Getting Started
-
-First, run the development server:
-
-```bash
+## 🔧 Run Locally
+npm install
+# Add .env.local with Supabase keys
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
-
-<a href="https://v0.app/chat/api/kiro/clone/sbmstudy/-nexushack-2025-website" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
